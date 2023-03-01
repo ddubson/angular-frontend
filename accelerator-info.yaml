@@ -1,0 +1,14 @@
+id: 6f74c30b-3fff-43a8-8e7b-f8ed48cde1e2
+timestamp: 2023-03-01T21:10:46Z
+accelerator:
+  name: angular-frontend
+  source:
+    image: gcr.io/cf-identity-service-oak/tap-packages/1.5.0-build.29@sha256:ed4fbc0b3b587d7ba5bea97ff16e676ff5a45a59a88cabb6ceae91131e15d107
+fragments:
+  - name: tap-workload
+    source:
+      image: gcr.io/cf-identity-service-oak/tap-packages/1.5.0-build.29@sha256:dbf0dedb6848ad8a7704c1c19465a1ddae9039b0e63c1dd0df3e2ed9cbda6093
+options:
+  artifactId: angular-frontend
+  backendService: customer-profile-backend.namespace
+  projectName: angular-frontend
