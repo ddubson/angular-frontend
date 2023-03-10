@@ -5,7 +5,7 @@ metadata:
 spec:
   authServerSelector:
     matchLabels:
-      name: https://ci.authservers.localhost.identity.team
+      name: https://sso.dev.localhost.identity.team
   authorizationGrantTypes:
     - authorization_code
   clientAuthenticationMethod: none
